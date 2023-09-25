@@ -1,0 +1,375 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#menu a {
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 19px;
+  text-decoration: none;
+  flex-direction: row;
+  margin: 19px;
+  text-transform: uppercase;
+}
+
+#menu a:hover {
+  color: rgb(188, 90, 198);
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(117, 41, 165, 1) 0%,
+    rgba(8, 0, 43, 1) 76%
+  );
+  padding-bottom: 60px;
+}
+
+.apresentacao {
+  display: flex; 
+}
+
+h1 {
+  font-size: 27px;
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 180%;
+}
+
+span {
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.right {
+  flex: 5;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.left {
+  flex: 5;
+  text-align: center;
+}
+
+.btn {
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.btnContact {
+  background: rgb(188, 90, 198);
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+}
+
+.btnContact:hover {
+  background: rgb(68, 21, 185);
+  color: rgb(255, 255, 255);
+}
+
+.containerServicos {
+  background: rgb(238, 230, 255);
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin-top: -8px;
+}
+
+.itemServico1,
+.itemServico3,
+.itemServico6,
+.itemServico8 {
+  border: 1px solid rgb(115, 10, 134);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 25px 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.itemServico2,
+.itemServico4,
+.itemServico5,
+.itemServico7 {
+  border: 1px solid rgb(70, 100, 190);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 25px 10px;
+  text-align: center;
+  width: 20%;
+}
+
+.containerServicos h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 21px;
+  color: rgb(0, 0, 0);
+}
+
+.containerServicos img {
+  width: 60px;
+}
+
+.itemServico1:hover,
+.itemServico3:hover,
+.itemServico6:hover,
+.itemServico8:hover {
+  background: rgb(252, 234, 255);
+  cursor: pointer;
+}
+
+.itemServico2:hover,
+.itemServico4:hover,
+.itemServico5:hover,
+.itemServico7:hover {
+  background: rgb(226, 233, 255);
+  cursor: pointer;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  background: rgb(238, 230, 255);
+  padding-top: 30px;
+  padding-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.containerSobreMim {
+  display: flex;
+  background: rgb(255, 255, 255);
+  padding-bottom: 50px;
+}
+
+.containerSobreMim .left {
+  margin-right: 190px;
+  margin-left: 120px;
+  flex: 7;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: left;
+  line-height: 30px;
+}
+
+.containerSobreMim .right {
+  background: rgb(255, 255, 255);
+  flex: 3;
+  margin-right: 40px;
+}
+
+#sobremim h3 {
+  background: rgb(255, 255, 255);
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+.socialMedia {
+  display: flex;
+}
+
+.socialMedia img {
+  width: 30px;
+}
+
+.socialMedia p {
+  margin-left: 5px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.socialMedia p:hover {
+  color: rgb(68, 21, 185);
+}
+
+.socialMedia a {
+  text-decoration: none;
+}
+
+.containerSobreMim h2 {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+
+#contato {
+  background: rgb(245, 224, 248);
+  font-family: "Nunito Sans", sans-serif;
+}
+
+form {
+  font-size: 18px;
+  max-width: 500px;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+input,
+textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-bottom: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+
+.displayContato {
+  display: flex;
+}
+
+form h2 {
+  font-weight: bold;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.mensagem {
+  margin-left: 60px;
+}
+
+textarea {
+  resize: none;
+  width: 400px;
+  height: 123px;
+}
+
+.mensagem input {
+  width: 150px;
+  font-size: 16px;
+  background: rgb(188, 90, 198);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.mensagem input:hover {
+  background: rgb(68, 21, 185);
+}
+
+.mapa {
+  margin-left: 90px;
+}
+
+iframe {
+  border-radius: 5px;
+  margin-top: -30px;
+}
+
+.navColor {
+  background: linear-gradient(
+    90deg,
+    rgba(117, 41, 165, 1) 0%,
+    rgba(8, 0, 43, 1) 76%
+  );
+  justify-content: center;
+}
+
+.container-fluid {
+  background: linear-gradient(
+    90deg,
+    rgba(117, 41, 165, 1) 0%,
+    rgba(8, 0, 43, 1) 76%
+  );
+  margin-top: -8px;
+  margin-bottom: -8px;
+}
+
+.navbar-toggler {
+  border: 1px solid transparent;
+  margin: 7px;
+}
+
+.navbar {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255 %29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+/* Estilos para telas menores */
+@media screen and (max-width: 480px) {
+  .apresentacao {
+      flex-direction: column;
+  }
+
+  .left img {
+    margin-bottom: 14px; 
+  }
+
+  .right {
+    text-align: center;
+  }
+
+  .containerSobreMim {
+    flex-direction: column;
+  }
+
+  .containerSobreMim .left {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .containerSobreMim .right {
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .containerServicos {
+    flex-direction: column;
+  }
+
+  .containerServicos h2 {
+    font-size: 16px;
+  }
+
+  .itemServico1,
+  .itemServico2,
+  .itemServico3,
+  .itemServico4,
+  .itemServico5,
+  .itemServico6,
+  .itemServico7,
+  .itemServico8 {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #servicos h3 {
+    font-size: 15px;
+  }
+
+  .displayContato {
+    flex-direction: column;
+  }
+
+  textarea {
+    width: 200px;
+  }
+
+  .mapa {
+    margin-left: 0px;
+    margin-top: 50px;
+
+  }
+
+}
+
