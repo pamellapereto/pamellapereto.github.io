@@ -28,7 +28,7 @@ header {
 }
 
 .apresentacao {
-  display: flex;
+  display: flex; 
 }
 
 h1 {
@@ -215,7 +215,7 @@ h3 {
 
 form {
   font-size: 18px;
-  max-width: 90%;
+  max-width: 500px;
   padding-left: 50px;
   padding-bottom: 30px;
 }
@@ -301,14 +301,15 @@ iframe {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgb%28255, 255, 255 %29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
+
 /* Estilos para telas menores */
 @media screen and (max-width: 480px) {
   .apresentacao {
-    flex-direction: column;
+      flex-direction: column;
   }
 
   .left img {
-    margin-bottom: 14px;
+    margin-bottom: 14px; 
   }
 
   .right {
@@ -360,135 +361,15 @@ iframe {
     flex-direction: column;
   }
 
-  form {
-    max-width: 100%;
+  textarea {
+    width: 200px;
   }
 
   .mapa {
     margin-left: 0px;
     margin-top: 50px;
-    width: 80%;
+
   }
-
-
-  textarea,
-  input {
-    width: 100%;
-  }
-
-  .dados {
-    width: 80%;
-  }
-
-  .mensagem {
-    width: 80%;
-    margin-left: 0px;
-  }
-
-
-  .mapa iframe {
-    width: 100%;
-    height: auto;
-  }
-
 
 }
 
-
-
-
-
-
-
-
-
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .apresentacao {
-    flex-direction: column;
-  }
-
-  .left img {
-    margin-bottom: 14px;
-  }
-
-  .right {
-    text-align: center;
-  }
-
-  .containerSobreMim {
-    flex-direction: column;
-  }
-
-  .containerSobreMim .left {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .containerSobreMim .right {
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  .containerServicos {
-    flex-direction: column;
-  }
-
-  .containerServicos h2 {
-    font-size: 16px;
-  }
-
-  .itemServico1,
-  .itemServico2,
-  .itemServico3,
-  .itemServico4,
-  .itemServico5,
-  .itemServico6,
-  .itemServico7,
-  .itemServico8 {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  #servicos h3 {
-    font-size: 15px;
-  }
-
-  .displayContato {
-    flex-direction: column;
-  }
-
-  form {
-    max-width: 100%;
-  }
-
-  .mapa {
-    margin-left: 0px;
-    margin-top: 50px;
-    width: 80%;
-  }
-
-
-  textarea,
-  input {
-    width: 100%;
-  }
-
-  .dados {
-    width: 80%;
-  }
-
-  .mensagem {
-    width: 80%;
-    margin-left: 0px;
-  }
-
-
-  .mapa iframe {
-    width: 100%;
-    height: auto;
-  }
-}
